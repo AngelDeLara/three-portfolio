@@ -8,7 +8,8 @@ import { calculateSizes } from '../constants';
 import Target from '../components/Target';
 import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube';
-import Rings from './Rings';
+import Rings from '../components/Rings';
+import HeroCamera from '../components/HeroCamera';
 
 const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 })
@@ -39,11 +40,14 @@ const Hero = () => {
             position={[0, 0, 20]} 
           />
 
-          <HackerRoom 
-            position={sizes.deskPosition}  
-            scale={sizes.deskScale}
-            rotation={[0, -Math.PI, 0]}
-          />
+          <HeroCamera isMobile={isMobile}>
+            <HackerRoom 
+              position={sizes.deskPosition}  
+              scale={sizes.deskScale}
+              rotation={[0, -Math.PI, 0]}
+            />
+          </HeroCamera>
+
 
           <group>
             <Target position={sizes.targetPosition} />
