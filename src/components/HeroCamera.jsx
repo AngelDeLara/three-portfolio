@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { easing } from 'maath';
 
+// eslint-disable-next-line react/prop-types
 const HeroCamera = ({ isMobile, children }) => {
   const group = useRef();
 
