@@ -20,7 +20,6 @@ const NavItems = () => {
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
-  console.log('isOpen', isOpen)
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
