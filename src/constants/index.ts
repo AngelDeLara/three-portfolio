@@ -130,9 +130,9 @@ export const myProjects = [
       { id: 2, name: 'Three.js', path: '/assets/threejs.png' },
       { id: 3, name: 'Tailwind', path: '/assets/tailwindcss.png' },
       { id: 5, name: 'React Three Fiber', path: '/assets/drei.svg' },
-      { id: 6, name: 'EmailJS', path: '/assets/emailjs.png' },
-      { id: 7, name: 'ViteJS', path: '/assets/vitejs.png' },
-      { id: 8, name: 'GSAP', path: '/assets/gsap.png' },
+      // { id: 6, name: 'EmailJS', path: '/assets/emailjs.png' },
+      { id: 6, name: 'ViteJS', path: '/assets/vitejs.png' },
+      { id: 7, name: 'GSAP', path: '/assets/gsap.png' },
     ],
   },
 ];
