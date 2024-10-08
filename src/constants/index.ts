@@ -115,8 +115,8 @@ export const myProjects = [
   {
     title: 'Three Portfolio',
     desc: 'A cutting-edge, immersive 3D portfolio leveraging advanced web technologies. This project showcases complex Three.js integrations, including custom shaders, optimized 3D model loading, and performant rendering techniques. It features an interactive 3D hacker room, dynamically animated project showcases, and a responsive design that adapts seamlessly across devices. The portfolio incorporates advanced React patterns for state management, custom hooks for 3D interactions, and optimized asset loading for improved performance. Key highlights include procedurally generated particle systems, a bespoke timeline component with GSAP animations, and server-side rendering for improved SEO.',
-    subdesc: 'Engineered with React, Three.js, React Three Fiber, and deployed on Vercel with optimized build processes.',
-    href: 'https://three-portfolio-mu.vercel.app',
+    subdesc: 'Engineered with React, Three.js, React Three Fiber, and deployed on Netlify with optimized build processes.',
+    href: 'https://angeldelara.netlify.app/',
     texture: '/textures/project/three-portfolio.mp4',
     logo: '/assets/three-portfolio-logo.png',
     logoStyle: {
