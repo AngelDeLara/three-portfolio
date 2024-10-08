@@ -59,8 +59,8 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: 'Workout Buddy',
-    desc: 'A comprehensive fitness tracking application built on the MERN stack. It offers personalized workout management with secure user authentication via JWT. Users can create, update, and delete exercises, all stored in a MongoDB database with user-specific data relationships. The app showcases full CRUD operations, state management, and RESTful API integration.',
-    subdesc: 'Developed using MongoDB, Express.js, React, and Node.js (MERN stack), with JWT for authentication.',
+    desc: 'A comprehensive fitness tracking application built on the MERN stack. It offers personalized workout management with secure user authentication via JWT. Users can create, update, and delete exercises, all stored in a MongoDB database with user-specific data relationships. The app showcases full CRUD operations, state management, and RESTful API integration. The backend is deployed on Render.io, while the frontend is hosted on Vercel, ensuring optimal performance and scalability.',
+    subdesc: 'Developed using MongoDB, Express.js, React, and Node.js (MERN stack), with JWT for authentication. Backend deployed on Render.io and frontend on Vercel.',
     href: 'https://workout-app-lake.vercel.app',
     texture: '/textures/project/workout-buddy.mp4',
     logo: '/assets/workout-buddy-logo.png',
