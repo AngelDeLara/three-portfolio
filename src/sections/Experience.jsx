@@ -49,9 +49,12 @@ const WorkExperience = () => {
                   <div className="sm:p-5 px-2.5 py-5">
                     <p className="font-bold text-white-800">{item.name}</p>
                     <p className="text-sm mb-5">
-                      {item.pos} -- <span>{item.duration}</span>
+                      {item.pos} (<span>{item.duration}</span>)
                     </p>
-                    <p className="group-hover:text-white transition-all ease-in-out duration-500">{item.title}</p>
+                    <p className="group-hover:text-white transition-all ease-in-out duration-500 mb-2">{item.title}</p>
+                    {item.techStack ? (<p className="text-white-500">
+                      Tech Stack: {item.techStack}
+                    </p>) : null}
                   </div>
                 </div>
               ))}
